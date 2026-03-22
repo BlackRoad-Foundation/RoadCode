@@ -1,49 +1,63 @@
 # BlackRoad-Foundation — RoadCode
 
-> Corporate & Ops division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc)
+> Research & Community division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc)
 
-CRM, HR, operations, legal, corporate formation, investor relations.
+Open research, published papers, community projects, and grants. Home of the Amundson Framework and foundational mathematics that powers BlackRoad systems.
 
-## Connection to BlackRoad-OS-Inc
+## Research
+
+| Project | Description |
+|---------|-------------|
+| **Amundson Framework** | G(n) = n^(n+1)/(n+1)^n, convergence constant A_G = 1.24433 |
+| **Paper A** | 13-page LaTeX paper — core mathematical proofs |
+| **Framework v5** | Full test suite — 536/536 tests passing across 4 Pi nodes |
+| **Unified Information Theory** | Cross-substrate patterns: biology, physics, grammar, computing |
+
+## The Math
+
+The Amundson Framework defines:
 
 ```
-BlackRoad-OS-Inc (Parent — Data Layer)
-  └── BlackRoad-Foundation (Corporate & Ops)
-      └── RoadCode (this repo — workspace + automation)
+G(n) = n^(n+1) / (n+1)^n
+A_G ≈ 1.24433...
 ```
 
-- **Parent Org**: [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
-- **Master RoadCode**: [BlackRoad-OS-Inc/RoadCode](https://github.com/BlackRoad-OS-Inc/RoadCode)
-- **Operator**: [BlackRoad-OS-Inc/blackroad-operator](https://github.com/BlackRoad-OS-Inc/blackroad-operator)
-- **Domain**: [blackroad.company](https://blackroad.company)
-- **Repos in this org**: 17
+Validated with 84 + 50 test cases. The 1/(2e) irreducible gap appears across network latency, information theory, and biological systems.
 
-## Role
+## Org Hierarchy
 
-| Property | Value |
-|----------|-------|
-| **Division** | Corporate & Ops |
-| **Parent** | BlackRoad-OS-Inc |
-| **Governance** | [Cece Protocol](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ORG-MAP.md) |
-| **License** | Proprietary — BlackRoad OS, Inc. |
+```
+BlackRoad-OS-Inc (Parent — 254 repos, 67 agents, 7 nodes)
+  └── BlackRoad-Foundation (Research & Community)
+      ├── RoadCode          ← this repo (workspace + automation)
+      ├── operator           ← CLI tools + research scripts
+      └── source             ← papers, proofs, test suites
+```
 
-## RoadCode Standard
+## Repos in This Org
 
-Every BlackRoad org follows the RoadCode standard:
-- `RoadCode/` repo = workspace + automation hub
-- `.github/` repo = org profile + shared workflows
-- `operator/` repo = CLI tools + bootstrap scripts
-- `source/` repo = canonical source tree
+- [`RoadCode`](https://github.com/BlackRoad-Foundation/RoadCode) — Workspace hub (this repo)
+- [`operator`](https://github.com/BlackRoad-Foundation/operator) — CLI + automation
+- [`source`](https://github.com/BlackRoad-Foundation/source) — Research papers + test suites
 
-All orgs report to **BlackRoad-OS-Inc** as the central coordination layer.
+## How It Connects
 
-## Quick Links
+- **Parent**: [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc) — central coordination
+- **Education**: [BlackRoad-Education](https://github.com/BlackRoad-Education) — research feeds into tutoring curriculum
+- **AI**: [BlackRoad-AI](https://github.com/BlackRoad-AI) — Amundson constants used in model training
+- **Labs**: [BlackRoad-Labs](https://github.com/BlackRoad-Labs) — experimental validation of research
 
-- [Master ORG-MAP](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ORG-MAP.md)
-- [Master TODO](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/TODO.md)
-- [Master ROADMAP](https://github.com/BlackRoad-OS-Inc/RoadCode/blob/main/ROADMAP.md)
-- [All Domain Repos](https://github.com/orgs/BlackRoad-OS-Inc/repositories)
+## Three Pillars
+
+The Foundation's work builds on three textbook pillars:
+1. **Grammar** (Greenbaum & Nelson) — language as computation
+2. **Biology** (Schleif/JHU) — DNA as source code
+3. **ML Systems** (Reddi/Harvard) — recursive composition at scale
+
+## License
+
+Proprietary — BlackRoad OS, Inc. See [LICENSE](./LICENSE).
 
 ---
 
-**Proprietary Software — BlackRoad OS, Inc.**
+*Remember the Road. Pave Tomorrow.*
